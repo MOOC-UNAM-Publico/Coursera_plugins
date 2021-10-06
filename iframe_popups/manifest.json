@@ -1,0 +1,29 @@
+{
+  "short_name": "External Webpage with popups",
+  "name": "iframe popups",
+  "description": "This plugin loads an external web page as an iframe allowing popups.",
+  "maintainer": {
+    "name": "JAMF MOOC-UNAM",
+    "email": "jairo_antonio@cuaieed.unam.mx"
+  },
+  "version": "0.0.1",
+  "sandbox": "allow-presentation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox",
+  "configurationExamples": [
+    {
+      "name": "Example Domain",
+      "configuration": {
+        "URL": "https://www.example.com"
+      }
+    }
+  ],
+  "authorizations": {},
+  "actionTypes": ["GET_SESSION_CONFIGURATION", "SET_HEIGHT"],
+  "macros": [],
+  "accessibility": {
+    "mobileCompatibility": {
+      "supportsTouch": true,
+      "minHeightPx": 0,
+      "minWidthPx": 0
+    }
+  }
+}
