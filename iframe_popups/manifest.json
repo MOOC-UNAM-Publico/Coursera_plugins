@@ -17,7 +17,10 @@
     }
   ],
   "authorizations": {},
-  "actionTypes": ["GET_SESSION_CONFIGURATION", "SET_HEIGHT"],
+  "actionTypes": [
+    "GET_SESSION_CONFIGURATION",
+    "SET_HEIGHT"
+  ],
   "macros": [],
   "accessibility": {
     "mobileCompatibility": {
